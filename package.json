@@ -1,0 +1,26 @@
+{
+  "name": "pi-project-state",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Rough draft of one CLI for todos, notes, workplans, and memory.",
+  "type": "module",
+  "bin": {
+    "project-state": "./bin/project-state.js",
+    "pstate": "./bin/project-state.js"
+  },
+  "scripts": {
+    "check": "node --check ./bin/project-state.js",
+    "smoke": "node ./bin/project-state.js help"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": [
+    "cli",
+    "project-state",
+    "todo",
+    "notes",
+    "workplan",
+    "memory"
+  ]
+}
